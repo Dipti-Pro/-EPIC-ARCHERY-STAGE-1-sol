@@ -16,7 +16,7 @@ function setup() {
   world = engine.world;
 
   playerBase = new PlayerBase(300, random(450, height - 300), 180, 150);
-  player = new Player(285, playerBase.body.position.y - 153, 50, 180);
+ 
 
 
   computerBase = new ComputerBase(
@@ -25,12 +25,7 @@ function setup() {
     180,
     150
   );
-  computer = new Computer(
-    width - 280,
-    computerBase.body.position.y - 153,
-    50,
-    180
-  );
+  
 
   
 }
